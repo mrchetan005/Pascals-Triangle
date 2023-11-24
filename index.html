@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pascal's Triangle</title>
+		<link rel="stylesheet" href="style.css" />
+		<script defer src="./index.js"></script>
+	</head>
+	<body>
+		<h1>Pascal's Triangle</h1>
+		<form class="form" id="form">
+			<div class="input_wrapper">
+				<label class="input_label" for="number">Enter Number (3 to 15)</label>
+				<input
+					class="input_box"
+					id="number"
+					type="number"
+					min="3"
+					max="15"
+					value="3"
+					placeholder="3"
+				/>
+			</div>
+			<button class="create_button" type="submit">Create</button>
+		</form>
+		<main id="container">
+			<div class="row">
+				<div class="square">1</div>
+			</div>
+			<div class="row">
+				<div class="square">1</div>
+				<div class="square">1</div>
+			</div>
+			<div class="row">
+				<div class="square">1</div>
+				<div class="square">2</div>
+				<div class="square">1</div>
+			</div>
+		</main>
+	</body>
+</html>
